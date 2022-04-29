@@ -4,9 +4,12 @@ I only added the /export route to the admin service.
 
 I got caught out trying to send the data over to the investments service in csv format.
 
-I have listed the work I would do to complete the assigment below.
+I have listed the work I'd do to complete the assigment below.
 
-I was going to fork the github project and noticed that there are solutions from other candidates. I didn't think it was ethical to look at these before tackling the project. If there's a gold standard solution, I'd be interested in viewing it.
+I was going to fork the github project and noticed that there are solutions from other candidates. 
+I didn't think it was ethical to look at these before tackling the project.
+
+From a personal perspective and growth, if there's an ideal response to this test, I'd be interested in viewing it.
 
 
 ## Time Allocation:
