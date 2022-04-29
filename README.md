@@ -6,7 +6,7 @@ I got caught out trying to send the data over to the investments service in csv 
 
 I have listed the work I'd do to complete the assigment below.
 
-I was going to fork the github project and noticed that there are solutions from other candidates. 
+I was going to fork the GitHub project and noticed that there are solutions from other candidates. 
 I didn't think it was ethical to look at these before tackling the project.
 
 From a personal perspective and growth, if there's an ideal response to this test, I'd be interested in viewing it.
@@ -16,7 +16,7 @@ From a personal perspective and growth, if there's an ideal response to this tes
 
 I spent 15 mins downloading and getting the systems to work
 
-I spent 10 mins commiting source-code changes
+I spent 10 mins committing source-code changes
 
 I spent 15 mins going understanding the requirements
 
@@ -57,9 +57,9 @@ The results are streamed to a file as a cache or held in memory and that data is
 
    - Store data in a database
 
-   - Holdings should be seprate from the user identifible data
+   - Holdings should be separate from the user identifiable data
 
-   - Services shouldn't be publically accessable
+   - Services shouldn't be publicly accessible
 
    - Can't run global query to pull all the data
 
@@ -77,9 +77,9 @@ You don't want to be doing any heavy processing directly from an users actions v
 
 a. Implement some sort of batch processing for the more complicated queries
 
-This would process only users data where the investmentTotal or investmentPercentage is changed and their investmentValue needs recalculating.
+This would process only users' data where the investmentTotal or investmentPercentage is changed and their investmentValue needs recalculating.
 
-This processing this can be scheduled via a queue or a seperate machine or set of machines.
+This processing this can be scheduled via a queue or a separate machine or set of machines.
 
 If queried/changed directly by the user, add that user processing to a queue to have their data reprocessed.
 
@@ -87,7 +87,7 @@ If queried/changed directly by the user, add that user processing to a queue to 
 b. Use the power of stored procedures to calculate the variable data so leaving the heavy work to a sql database
 
 
-c. Master, slave archeture to make sure there are enough available servers for quering the data.
+c. Master, slave architecture to make sure there are enough available servers for querying the data.
 
 
 d. Data would be held in a sql or noSQL database depending on querying
